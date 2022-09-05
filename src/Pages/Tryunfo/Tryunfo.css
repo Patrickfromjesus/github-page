@@ -38,7 +38,7 @@ code {
   margin-bottom: 1.2rem;
 }
 
-select, input, textarea {
+.select-tryunfo, .input-tryunfo, .textarea-tryunfo {
   height: 1.8rem;
   width: 15rem;
   border-radius: 5px;
@@ -59,7 +59,7 @@ select, input, textarea {
   display: flex;
 }
 
-form {
+.form-tryunfo {
   display: flex;
   flex-flow: column;
 }

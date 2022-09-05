@@ -19,7 +19,7 @@ class Form extends Component {
     } = this.props;
 
     return (
-      <form>
+      <form className="form-tryunfo">
           <label htmlFor="name">
             <p>Nome:</p>
             <input
@@ -35,7 +35,8 @@ class Form extends Component {
           <label htmlFor="desc">
             <p>Descrição:</p>
             <textarea
-            maxLength="250"
+              className="textarea-tryunfo"
+              maxLength="250"
               value={ cardDescription }
               onChange={ onInputChange }
               data-testid="description-input"
@@ -46,6 +47,7 @@ class Form extends Component {
           <label htmlFor="attr1">
             <p>Ataque:</p>
             <input
+              className="input-tryunfo"
               value={ cardAttr1 }
               onChange={ onInputChange }
               type="number"
@@ -57,6 +59,7 @@ class Form extends Component {
           <label htmlFor="attr2">
             <p>Meio Campo:</p>
             <input
+              className="input-tryunfo"
               value={ cardAttr2 }
               onChange={ onInputChange }
               type="number"
@@ -68,6 +71,7 @@ class Form extends Component {
           <label htmlFor="attr3">
             <p>Defesa:</p>
             <input
+              className="input-tryunfo"
               value={ cardAttr3 }
               onChange={ onInputChange }
               type="number"
@@ -79,6 +83,7 @@ class Form extends Component {
           <label htmlFor="image">
             <p>Imagem (url):</p>
             <input
+              className="input-tryunfo"
               value={ cardImage }
               onChange={ onInputChange }
               type="text"
@@ -90,6 +95,7 @@ class Form extends Component {
           <label htmlFor="rare">
             <p>Raridade:</p>
             <select
+            className="select-tryunfo"
               value={ cardRare }
               onChange={ onInputChange }
               data-testid="rare-input"
@@ -107,6 +113,7 @@ class Form extends Component {
                 <div>
                   <span>Super Trunfo</span>
                   <input
+                    className="input-tryunfo"
                     checked={ cardTrunfo }
                     onChange={ onInputChange }
                     type="checkbox"
