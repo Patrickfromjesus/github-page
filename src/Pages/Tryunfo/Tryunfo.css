@@ -170,7 +170,7 @@ code {
   transition: 0.5s;
 }
 
-img {
+.img-tryunfo {
  max-width: 90%;
  max-height: 60%;
  border-bottom-right-radius: 10px;

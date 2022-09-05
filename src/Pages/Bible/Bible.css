@@ -166,14 +166,14 @@ footer {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   .header-bible {
     background-color: rgb(142, 140, 243);
     width: 100%;
     height: 5rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     font-size: .7em;
@@ -187,6 +187,19 @@ footer {
     align-items: center;
     margin: 0;
     padding: 1rem;
+  }
+  .squares-versions {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    flex-flow: column;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .div-version-bibles {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
   }
 }
 

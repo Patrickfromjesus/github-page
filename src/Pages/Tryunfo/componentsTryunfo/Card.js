@@ -26,7 +26,7 @@ class Card extends Component {
           { rareSpan }
           <span className="name" data-testid="name-card">{ cardName }</span>
           </div>
-          <img src={ cardImage } alt={ cardName } data-testid="image-card" />
+          <img className="img-tryunfo" src={ cardImage } alt={ cardName } data-testid="image-card" />
           </div>
           <p className="descr" data-testid="description-card">{ cardDescription }</p>
           <div className="attr">
