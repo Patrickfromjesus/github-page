@@ -1,0 +1,224 @@
+.full-screen {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #999;
+  padding-left: 2rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title-preview {
+  color: #000;
+}
+
+.title {
+  text-align: center;
+  text-shadow: 3px 4px 5px rgb(3, 133, 133);
+  color: rgb(10, 56, 10);
+  font-size: 2.5em;
+  background-color: rgba(255, 255, 255, 0.267);
+  border-radius: 8px;
+}
+
+#btn {
+  cursor: pointer;
+  border: 2px solid rgb(7, 95, 7);
+  background-color: rgba(255, 255, 255, 0.199);
+  height: 2.3rem;
+  width: 12rem;
+  border-radius: 5px;
+  box-shadow: 3px 5px 10px #333;
+  margin-bottom: 1.2rem;
+}
+
+select, input, textarea {
+  height: 1.8rem;
+  width: 15rem;
+  border-radius: 5px;
+  border: 2px solid #eee;
+  box-shadow: 3px 5px 10px #333;
+  outline: 0;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#trunfo, #filterTrunfo {
+  margin: 1.2rem;
+  width: auto;
+  height: auto;
+}
+
+.principal-div {
+  display: flex;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+}
+
+.div-card {
+  margin-left: 2rem;
+  border: 5px double rgb(16, 128, 16);
+}
+
+.div-card, .cards {
+  flex: 1;
+  display: flex;
+  background-color: #ccc;
+  flex-flow: column;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 1.3rem;
+}
+
+.cards-div-out {
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+}
+
+.cards {
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#delete-btn {
+  height: 35px;
+  width: 80px;
+  background-color: rgba(116, 110, 110, 0.801);
+  color: #000;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 1px solid aquamarine;
+  margin-left: 40%;
+  margin-bottom: 2.5rem;
+}
+
+#delete-btn:hover {
+  transition: 0.5s;
+  font-weight: 400;
+  background-color: #f00;
+  color: #fff;
+}
+
+.descr {
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.div-show, .cards-div {
+  border: 2px solid yellow;
+  border-radius: 3px;
+  background: linear-gradient( 129.1deg,  rgba(243,199,83,1) 26.8%, rgba(18,235,207,1) 114.1% );
+  color: #000;
+  height: auto;
+  width: 20rem;
+  text-align: center;
+  position: relative;
+}
+.attr {
+  border-radius: 6px;
+  margin: 0 1rem 1rem 1rem;
+  padding: 10px 0;
+  background-color: rgba(255, 102, 0, 0.144);
+}
+
+.attrs {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5px 10px 5px;
+  background-color: rgba(85, 102, 52, 0.192);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.rare-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 0 5px 0 5px;
+  background-color: rgba(34, 3, 3, 0.39);
+  margin: 5% 5% 0 5%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.name {
+  font-size: 20px;
+  animation: bright infinite;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.rare {
+  font-style: italic;
+  font-size: 12px;
+  transition: 0.5s;
+}
+
+img {
+ max-width: 90%;
+ max-height: 60%;
+ border-bottom-right-radius: 10px;
+ border-bottom-left-radius: 10px;
+}
+
+@keyframes trunfo {
+  0% {
+    text-shadow: 1px 1px 1px rgb(5, 0, 0);
+  }
+  50% {
+    text-shadow: 4px 3px 10px rgb(126, 20, 224);
+  }
+  100% {
+    text-shadow: 4px 3px 10px purple;
+}
+}
+
+.strunfo {
+  animation: trunfo 1s infinite;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  font-style: italic;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.897);
+  padding-top: 18px;
+  width: 24%;
+  height: 12%;
+  border-radius: 50%;
+  margin: 1.5rem auto;
+  box-shadow: 3px 17px 18px #111;
+}
+
+.normal {
+  color: #0f0;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.raro {
+  color: purple;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px #777;
+}
+
+.muito-raro {
+  color: aqua;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px #000;
+}

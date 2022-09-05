@@ -68,10 +68,14 @@ class Home extends Component {
           <Link className="link" to="/github-page/color-guess"><li className="about-me">Color Guess</li></Link>
           <Link className="link" to="/github-page/pixel-art"><li className="about-me">Pixel Art</li></Link>
           <li className="about-me">Shopping Cart</li>
-          <li className="about-me">Tryunfo</li>
           <li className="about-me">TrybeTunes</li>
+          <Link className=" link about-me" to="/github-page/tryunfo"><li className="about-me">Tryunfo</li></Link>
           <Link className="link" to="/github-page/trybewallet"><li className="about-me">TrybeWallet</li></Link>
-          <Link className="link" to="github-page/bible"><li className="about-me">Bible</li></Link>
+          <Link className="link" to="github-page/bible">
+            <li className="about-me">
+              Bible
+            </li>
+          </Link>
         </ul>
         <hr />
         <footer className="footer-home">
