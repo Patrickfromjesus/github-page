@@ -1,0 +1,38 @@
+.square-div {
+  background-color: #fff;
+  width: 1.7rem;
+  height: 1.7rem;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.divs-square {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-squares {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  outline: 0;
+  height: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+
+.color-type {
+  margin-bottom: 1rem;
+  margin-left: .8rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.btn-erase {
+  margin-left: 1rem;
+  border-radius: 10px;
+  height: 1.8rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+}

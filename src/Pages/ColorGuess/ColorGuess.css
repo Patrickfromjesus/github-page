@@ -1,0 +1,40 @@
+.color-guess-div {
+  background: rgb(253,29,56);
+  background: linear-gradient(307deg, rgba(253,29,56,1) 12%, rgba(136,173,125,1) 33%, rgba(58,97,180,1) 67%, rgba(252,247,69,1) 79%, rgba(217,252,69,1) 100%, rgba(217,252,69,1) 100%);
+  padding: 10px;
+  height: 100%;
+}
+
+.colors {
+  display: flex;
+  justify-content: space-around;
+}
+
+.color-to-guess {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid #000;
+  margin-right: 1rem;
+}
+
+.rgb {
+  text-align: center;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 1.3em;
+}
+
+.score {
+  font: 1.2em;
+  color: #000;
+  text-shadow: 5px 5px 10px #000;
+}
+
+.footer-color-guess {
+  text-align: center;
+  font-style: italic;
+}

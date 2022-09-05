@@ -1,0 +1,192 @@
+.not-found {
+  font-size: 3em;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.outside-header-bible {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.chapter {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: rgb(240, 123, 123);
+}
+
+.versions {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: .6em;
+}
+
+.div-version-bibles {
+  display: flex;
+  margin-left: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.versions:hover {
+  color: #aaa;
+}
+
+.squares {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.verses {
+  text-align: justify;
+}
+
+.vers-number {
+  text-shadow: 2px 2px 10px #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #f00;
+}
+
+.select-chapter {
+  background-color: #eee;
+  color: #555;
+  outline: 0;
+  margin-bottom: 2rem;
+  overflow-y: auto;
+}
+
+.select-chapter::-webkit-scrollbar {
+  width: 7px;
+}
+
+.select-chapter::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.select-chapter::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 34px;
+  border: 0px outset #000000;
+}
+
+.version-title {
+  height: 100%;
+  border-right: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding-left: 2.7rem;
+}
+
+.book-showed {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bible {
+  margin-bottom: .5rem;
+  color: #000;
+  text-shadow: 0 0 0 #000;
+}
+
+.verse-text {
+  font-size: 1.3em;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.header-bible {
+  background-color: rgb(190, 189, 126);
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.8em;
+  margin-bottom: 2rem;
+}
+
+footer {
+  text-decoration: none;
+  color: #000;
+  line-height: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .header-bible {
+    background-color: rgb(142, 140, 243);
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1.2em;
+    margin-bottom: 1.5rem;
+  }
+
+  .version-title {
+    height: 100%;
+    font-size: .8em;
+    border-right: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .versions {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    font-size: .8em;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .versions:hover {
+    color: #555;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header-bible {
+    background-color: rgb(142, 140, 243);
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: .7em;
+    margin-bottom: 1rem;
+  }
+  .version-title {
+    height: 100%;
+    font-size: .8em;
+    border-right: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 1rem;
+  }
+}
+
