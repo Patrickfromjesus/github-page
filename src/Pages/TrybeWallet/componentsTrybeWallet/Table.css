@@ -1,0 +1,34 @@
+.table {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.table td, th {
+  text-align: center;
+}
+
+.btn-del {
+  background-color: rgba(179, 4, 4, 0.671);
+  color: #fff;
+  border: 1px solid transparent;
+  height: 2rem;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-top: 3px;
+  cursor: pointer;
+  box-shadow: 2px 2px 8px #000;
+  width: 4.5rem;
+}
+
+.btn-edit {
+  background-color: rgb(3, 3, 95);
+  color: #fff;
+  border: 1px solid transparent;
+  height: 2rem;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-top: 3px;
+  cursor: pointer;
+  box-shadow: 2px 2px 8px #000;
+  width: 4.5rem;
+}

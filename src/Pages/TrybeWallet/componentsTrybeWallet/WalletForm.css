@@ -1,0 +1,51 @@
+.form-wallet {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  background-color: #333;
+  height: 3rem;
+}
+
+.div-form-wallet {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.form-wallet input {
+  height: 2.3rem;
+  border: 1px solid transparent;
+  width: 100%;
+  margin-right: 3px;
+  border-radius: 5px;
+  background-color: #ccc;
+}
+
+.form-wallet select {
+  height: 2.3rem;
+  width: 10rem;
+  border: 1px solid transparent;
+  width: 100%;
+  margin-right: 3px;
+  border-radius: 5px;
+  background-color: #ccc;
+}
+
+.form-wallet button {
+  height: 2.3rem;
+  border: 1px solid transparent;
+  margin-right: 1rem;
+  transition: .5s;
+  width: 60%;
+  border-radius: 5px;
+  margin-left: 1rem;
+  background-color: #ccc;
+  line-height: 1rem;
+}
+
+.form-wallet button:hover {
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+  transition: .5s;
+}
